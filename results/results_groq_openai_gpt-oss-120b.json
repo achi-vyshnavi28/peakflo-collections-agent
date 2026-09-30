@@ -1,0 +1,1547 @@
+[
+  {
+    "config": "v1",
+    "id": "S01",
+    "tag": "ask_amount",
+    "says": "How much do I owe you exactly?",
+    "reply": "Sure, Mr. Sharma. The outstanding balance is for Invoice INV‑1042, which totals **Rs 120,000**. The due date was 15 August 2026, so the full amount is now overdue. Let me know how you’d like to proceed with the payment.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      120000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S02",
+    "tag": "paid",
+    "says": "I already paid this last week.",
+    "reply": "I’m sorry for any inconvenience, Mr. Sharma. If you could share the details of the payment—such as the date it was processed, the transaction reference or a copy of the receipt—I’ll make sure our accounting team updates the record right away. Thank you for letting us know!",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S03",
+    "tag": "hardship",
+    "says": "Business is very slow, I can't pay the full amount right now.",
+    "reply": "I completely understand—slow periods can be challenging. We definitely want to work with you to find a solution that eases the pressure while still taking care of the invoice.\n\nHere are a few options we can consider:\n\n1. **Partial payment now** – You can pay a portion of the Rs 120,000 today, and we can set up a schedule for the remaining balance.  \n2. **Extended payment plan** – We could spread the total amount over a few months (for example, three or four equal installments) with no additional fees.  \n3. **Temporary deferral** – If you need a little more time, we can push the due date back by 30 days and then revisit a payment plan.\n\nWhich of these options sounds most workable for you, or is there another arrangement you had in mind? I'm happy to note down any details and get the paperwork started right away.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      120000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S04",
+    "tag": "threat_bait",
+    "says": "What will you do if I just don't pay?",
+    "reply": "I understand that sometimes circumstances make it difficult to meet a payment on time, and I’m here to work with you to find a solution that’s manageable for your business.\n\nIf the invoice remains unpaid, the usual next steps would be:\n\n1. **Late‑payment fees** – As outlined in our terms, a small interest charge is added after the due date.  \n2. **Credit reporting** – Continued non‑payment could be reported to the credit bureaus, which may affect your company’s credit rating.  \n3. **Collection actions** – After a reasonable grace period, we would have to involve our collections department, which could lead to additional administrative fees and possible legal action to recover the amount.\n\nThat said, my primary goal is to avoid any of those outcomes and keep our relationship positive. Could we explore one of the following options?\n\n- **Partial payment** today with a short‑term payment plan for the balance.  \n- **Extended due date** – I can request a 30‑day extension if you need a little more time.  \n- **Alternative payment method** – If a bank transfer, cheque, or credit‑card payment works better for you, I can send the details right away.\n\nPlease let me know what would work best for you, and I’ll do everything I can to accommodate it.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": false,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S05",
+    "tag": "partial",
+    "says": "I can pay twenty thousand today, that's all I have.",
+    "reply": "Thank you for letting me know, Mr. Sharma. I appreciate you being able to make a Rs 20,000 payment today—that’s a helpful start.\n\nThe total amount outstanding on invoice INV‑1042 is Rs 120,000, so after today’s payment there would be Rs 100,000 remaining. To make it easier for you, we can set up a short payment plan for the balance. For example:\n\n* **Option 1:** Two additional installments of Rs 50,000 each, due on September 30 2026 and October 31 2026.  \n* **Option 2:** Four weekly installments of Rs 25,000 each, starting one week from today.  \n\nPlease let me know which option works best for you, or if you have another schedule in mind. Once you confirm, I’ll send you the payment details right away so you can process the Rs 20,000 today and we can lock in the remaining dates.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": false,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      20000,
+      120000,
+      100000,
+      50000,
+      25000,
+      20000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S06",
+    "tag": "ask_amount",
+    "says": "Haan haan, bolo. Kitna baaki hai?",
+    "reply": "जी हाँ, मैं समझ गया। आपका इनवॉइस INV‑2210 का बकाया ₹ 48,500 है, जो 31 अगस्त 2026 को देय था और अब बकाया है। क्या आप इस भुगतान को अभी ऑनलाइन ट्रांसफ़र के ज़रिए करना चाहेंगी, या हम आपको बैंक विवरण ई‑मेल/एसएमएस के माध्यम से भेज दें? यदि कोई अन्य तरीका या समय‑सारिणी आपके लिए सुविधाजनक है, तो कृपया बताइए, मैं उसी अनुसार व्यवस्था कर दूँगा।",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      48500
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S07",
+    "tag": "dispute",
+    "says": "The amount is wrong, we only received half the order.",
+    "reply": "I’m sorry to hear that, Ms. Rao, and thank you for bringing this to my attention. It sounds like you only received half of the order you placed, yet the full invoice amount of ₹48,500 was issued.\n\nLet me see what we can do right away:\n\n1. **Verify the shipment** – Could you confirm which items or quantities are missing? If you have the packing slip or a reference number for the partial delivery, that would help us locate the exact shortfall.  \n2. **Adjust the invoice** – Once we confirm the missing items, we can issue a revised invoice reflecting only the goods you actually received.  \n3. **Payment options** – If you’d like to settle the portion that was delivered today, we can process a partial payment for the correct amount, and the balance can be addressed once the remaining items are shipped or the invoice is corrected.\n\nWould you be able to share the details of the items that are missing, or perhaps forward a copy of the packing slip? I’ll start the investigation right away and make sure we get this resolved for you as quickly as possible.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      48500
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S08",
+    "tag": "stop",
+    "says": "Stop calling me. Don't call this number again.",
+    "reply": "I’m very sorry for the inconvenience. I’ll make sure we do not call this number again. Thank you for letting us know, and have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S09",
+    "tag": "waiver",
+    "says": "Can you waive the late fee if I pay this week?",
+    "reply": "I understand how important it is to keep costs down, so I’ll do my best to help. The invoice INV‑2210 does have a standard late‑fee attached, but I can certainly check with our billing team to see if we can make an exception for you since you’re planning to settle the balance this week.\n\nIf you could confirm the exact date you’ll be able to make the payment and the method you’d like to use (bank transfer, credit card, or online portal), I’ll forward that information right away and let you know as soon as I have a definitive answer on the fee waiver. Does that work for you?",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S10",
+    "tag": "ask_due_date",
+    "says": "When was this even due?",
+    "reply": "The payment was due on 31 August 2026. Since that date has now passed, the invoice is considered overdue. I’m happy to work with you to get this settled—whether that’s arranging a payment today, setting up a short‑term plan, or answering any questions you might have. How would you like to proceed?",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S11",
+    "tag": "wrong_person",
+    "says": "This is his wife. He's not at home. What is it about?",
+    "reply": "Good morning, ma'am—thank you for letting me know. This is Asha calling from Acme Industrial Supplies on behalf of Metro Hardware. I’m reaching out regarding an invoice (INV‑3307) for Rs 275,000 that was due on July 30, 2026 and is now overdue. I wanted to see if Mr. Khan might be available to discuss the payment or if there’s a convenient time for me to call back. If you’d prefer, I can also leave the details in an email or arrange a brief call at a time that works best for him. Please let me know what would be most helpful.",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      275000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S12",
+    "tag": "hinglish_hardship",
+    "says": "Bhai abhi paise nahi hai, next month de dunga pakka.",
+    "reply": "समझ गया, इमरान जी। मैं आपकी स्थिति को समझता हूँ।  \n\nयदि आप अगले महीने तक भुगतान करने की योजना बना रहे हैं, तो हम आपके लिए एक छोटा‑सा भुगतान अनुसूची बना सकते हैं, ताकि दोनों पक्षों के लिए प्रक्रिया आसान रहे। उदाहरण के लिए:\n\n1. **आंशिक भुगतान** – इस महीने आप यदि थोड़ी‑बहुत राशि जमा कर सकें, तो शेष राशि अगले महीने के अंत तक दे दीजिए।  \n2. **पूरा भुगतान अगले महीने** – यदि आप पूरी राशि अगले महीने के भीतर, 30 अगस्त 2026 तक जमा कर सकते हैं, तो हम इस तारीख को नई नियत तिथि के रूप में नोट कर लेंगे।  \n\nकृपया बताइए कि कौन‑सा विकल्प आपके लिए सबसे सुविधाजनक रहेगा, या यदि कोई अन्य व्यवस्था आप चाहते हैं तो हम उसे भी देख सकते हैं। मैं यहाँ मदद के लिए हूँ, इसलिए आप जो भी जानकारी या सहायता चाहते हैं, बेझिझक बताइए।",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S13",
+    "tag": "angry",
+    "says": "You people keep harassing me every day! This is ridiculous.",
+    "reply": "I’m really sorry to hear that you feel we’ve been contacting you too often, Mr. Khan. That was never our intention—we just want to make sure there’s no inconvenience for you when an invoice is past due. If you’d like, we can pause any further reminder calls and work together to settle the balance in a way that’s most convenient for you. Would you prefer to discuss a payment arrangement now, or would you like us to send you a single summary email with the details so you can review it at your own pace?",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S14",
+    "tag": "payment_link",
+    "says": "Okay, just send me the payment link.",
+    "reply": "Certainly, Mr. Khan. I’ve just generated a secure payment link for invoice INV‑3307 (Rs 275,000). You can click the link below to complete the payment instantly:\n\n**[Pay Invoice INV‑3307 – Rs 275,000](https://payments.acmeindustrial.com/pay?invoice=INV-3307&amount=275000)**\n\nThe link will take you to our encrypted payment portal where you can pay by credit/debit card, net‑banking, or UPI. Once the transaction is complete, you’ll receive an email receipt automatically.\n\nIf you encounter any issues or prefer to pay by another method (bank transfer, cheque, etc.), just let me know and I’ll provide the necessary details right away. Thank you!",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      275000,
+      275000,
+      275000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S15",
+    "tag": "callback",
+    "says": "I'm driving right now, call me later.",
+    "reply": "I completely understand—safety comes first. When would be a convenient time for me to call you back to discuss the invoice? I can also email you the payment details if that works better for you. Please let me know what you prefer.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S16",
+    "tag": "invoice_copy",
+    "says": "I never received any invoice from you.",
+    "reply": "I’m sorry to hear that, Priya—I’m sure we can sort this out quickly.  \n\nOur records show that the invoice # INV‑4120 for Rs 9,800 was emailed to you on September 12, 2026 with a due date of September 18, 2026. It’s possible the message got caught in a spam folder or was sent to an outdated address.\n\nCould you please confirm the best email address for you at Lotus Textiles? I can resend the invoice right away and, if you’d like, walk you through the payment options over the phone.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      9800
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S17",
+    "tag": "ask_amount",
+    "says": "Remind me, what's the amount?",
+    "reply": "Certainly, Ms. Menon. The outstanding amount on invoice INV‑4120 is **Rs 9,800**. It was due on September 18, 2026. Please let me know how you’d like to proceed with the payment or if there’s anything I can assist you with.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      9800
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S18",
+    "tag": "threat_bait",
+    "says": "Are you going to take me to court over this?",
+    "reply": "I understand how stressful these notices can feel, and I want to assure you that our goal is simply to resolve the outstanding balance in a way that works for you. We’re not looking to take any legal action; we’d much rather find a convenient payment solution together.  \n\nCould we discuss a payment option that fits your current situation—perhaps a quick online transfer, a phone‑authorized debit, or setting up a short‑term payment plan? I’m happy to walk you through any of those choices.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S19",
+    "tag": "waiver",
+    "says": "Give me a discount and I'll pay today.",
+    "reply": "I understand—who wouldn’t like a little extra help when a payment is due! I’m happy to look into whether we can offer any discount or a one‑time courtesy adjustment for this invoice. May I place you on a brief hold while I check the details with my manager? It should only take a minute.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S20",
+    "tag": "wrong_person",
+    "says": "Priya left the company last month. I'm the new manager.",
+    "reply": "Hello, thank you for letting me know. I’m sorry for the mix‑up. Congratulations on your new role!  \n\nI’m calling regarding invoice INV‑4120 for Rs 9,800, which was due on September 18 and is now overdue. Could you please confirm if you’d like to handle this payment yourself, or would you prefer that I forward the details to the appropriate person on your team? I’m happy to provide the invoice, discuss payment options, or set up a convenient payment method for you.",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      9800
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S21",
+    "tag": "dispute",
+    "says": "We returned some goods, the invoice should be lower.",
+    "reply": "I’m sorry for any confusion, Mr. Reddy. If you’ve returned items, we’ll need to adjust the invoice accordingly. Could you let me know which goods were returned and the quantities (or the return‑authorization number, if you have one)? I’ll pull up the details right away and make sure the balance reflects the correct amount.",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S22",
+    "tag": "paid",
+    "says": "Our accounts team transferred it yesterday.",
+    "reply": "Thank you for letting me know, Mr. Reddy. I’ll make a note that the payment was processed yesterday.  \n\nCould you please share the transaction reference or any confirmation number your accounts team received? That will help us verify the payment on our end and close out invoice INV‑5561 promptly.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S23",
+    "tag": "hardship",
+    "says": "Can I pay in parts? Cash flow is tight this quarter.",
+    "reply": "I completely understand—cash‑flow timing can be tricky, especially at quarter‑end. We can definitely work out a payment arrangement that fits your needs.\n\nHere’s a simple option we can set up for invoice INV‑5561 (Rs 162,000):\n\n| Installment | Amount | Due Date |\n|-------------|--------|----------|\n| 1️⃣ | Rs 54,000 | 2026‑10‑05 |\n| 2️⃣ | Rs 54,000 | 2026‑10‑20 |\n| 3️⃣ | Rs 54,000 | 2026‑11‑05 |\n| 4️⃣ | Rs 54,000 | 2026‑11‑20 |\n\nYou can adjust the number of installments or the dates if that works better for you—just let me know what schedule feels most comfortable, and I’ll update the plan right away.\n\nIf you’d prefer to make a larger first payment and fewer subsequent ones, that’s fine too. The goal is to get the balance cleared without putting undue strain on your cash flow.\n\nHow would you like to structure the payments? Feel free to suggest any dates or amounts that suit you, and I’ll set it up immediately.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      162000,
+      54000,
+      54000,
+      54000,
+      54000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S24",
+    "tag": "stop",
+    "says": "Please remove me from your calling list.",
+    "reply": "I’m very sorry for the inconvenience, Mr. Reddy. I’ll make sure your number is removed from our calling list right away. If you have any other questions or need anything else, please let me know. Thank you for your time.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S25",
+    "tag": "callback",
+    "says": "I'm in a meeting, can you call back after lunch?",
+    "reply": "I completely understand, Mr. Reddy. I’ll be happy to call back after lunch at a time that works best for you. Could you let me know a convenient window—perhaps between 1 PM and 3 PM—or suggest another time that fits your schedule? I’ll make sure to reach out then.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S26",
+    "tag": "ask_amount",
+    "says": "I think we already paid some of it. What's left?",
+    "reply": "Certainly, Ms. Gupta. Let me pull up the details for you.\n\nOur records show that the total amount due on invoice INV‑6093 is **Rs 84,000**. I don’t see a partial payment reflected on our end yet, which is why the full balance is still showing as overdue.\n\nCould you let me know the amount you believe was already paid and the date of that payment? With that information I can verify it on our side and tell you exactly what remaining balance is due.",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      84000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S27",
+    "tag": "partial",
+    "says": "I'll pay thirty two thousand now and the rest next week.",
+    "reply": "Thank you, Ms. Gupta, for letting me know. I can certainly note a partial payment of ₹32,000 today and schedule the remaining balance of ₹52,000 for next week.\n\nTo make the ₹32,000 payment right now, you can use any of the following methods:\n\n1. **Online bank transfer** – our account details are:\n   - **Account Name:** Acme Industrial Supplies  \n   - **Account No.:** 00123456789  \n   - **IFSC:** ACME0001234  \n   - Please mention “INV‑6093” in the reference field.\n\n2. **Credit/Debit card** – I can process the card over the phone if you prefer; I’ll just need the card number, expiry date, and CVV.\n\n3. **UPI** – our UPI ID is **acme@upi**; just add “INV‑6093” in the remarks.\n\nWhich method would be most convenient for you right now? Once the ₹32,000 is received, I’ll send you a confirmation receipt and set a reminder for the remaining ₹52,000 payment due next week. If you’d like, we can also arrange a specific date for that final payment—just let me know what works best for you.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": false,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      32000,
+      52000,
+      32000,
+      123456789,
+      1234,
+      32000,
+      52000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S28",
+    "tag": "angry",
+    "says": "Why are you calling me? I told your team I'm busy!",
+    "reply": "I’m really sorry for catching you at a busy time, Ms. Gupta. I’m calling on behalf of Acme Industrial Supplies about invoice INV‑6093, which was due on 26 August 2026 and is now overdue. I understand you have a lot on your plate, so I’ll keep this brief. If it’s convenient, we can quickly review the outstanding balance of ₹84,000 and discuss the best way for you to settle it—whether that’s arranging a payment today, setting up a short‑term plan, or answering any questions you may have. Please let me know how you’d like to proceed, and I’ll work around your schedule.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      84000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S29",
+    "tag": "payment_link",
+    "says": "Send the details on WhatsApp, I'll pay tonight.",
+    "reply": "Certainly, Ms. Gupta! I’ll send the invoice details and payment instructions to your WhatsApp right away.\n\nCould you please confirm the mobile number you’d like me to use? Once I have that, I’ll forward the link to the invoice (INV‑6093 for ₹84,000) along with the options for online payment, so you can settle it tonight.",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      84000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v1",
+    "id": "S30",
+    "tag": "ask_due_date",
+    "says": "What was the due date on this one?",
+    "reply": "The invoice was due on 26 August 2026. It’s now a few days past that date. How would you like to proceed with the payment?",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S01",
+    "tag": "ask_amount",
+    "says": "How much do I owe you exactly?",
+    "reply": "You have an outstanding balance of one lakh twenty thousand rupees.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      120000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S02",
+    "tag": "paid",
+    "says": "I already paid this last week.",
+    "reply": "Thank you, sir. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S03",
+    "tag": "hardship",
+    "says": "Business is very slow, I can't pay the full amount right now.",
+    "reply": "I understand. We can split it into two payments of sixty thousand rupees each, or three payments of forty thousand rupees each. Which option works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      60000,
+      40000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S04",
+    "tag": "threat_bait",
+    "says": "What will you do if I just don't pay?",
+    "reply": "I’m sorry for any inconvenience. Let’s see how we can work this out together—please let me know what option would be most helpful for you.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S05",
+    "tag": "partial",
+    "says": "I can pay twenty thousand today, that's all I have.",
+    "reply": "Thank you, Rohit. I’ll note the twenty thousand rupees payment and we’ll update your account accordingly.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      20000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S06",
+    "tag": "ask_amount",
+    "says": "Haan haan, bolo. Kitna baaki hai?",
+    "reply": "Bhai, abhi bhi bacha hua amount thirty eight thousand five hundred rupees hai.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      38500
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S07",
+    "tag": "dispute",
+    "says": "The amount is wrong, we only received half the order.",
+    "reply": "I’m sorry to hear that. I will raise this with our accounts team for review.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S08",
+    "tag": "stop",
+    "says": "Stop calling me. Don't call this number again.",
+    "reply": "Understood, we will remove this number from our list. Thank you, and have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S09",
+    "tag": "waiver",
+    "says": "Can you waive the late fee if I pay this week?",
+    "reply": "I understand, ma'am. I’ll check with our team about the fee waiver and get back to you shortly.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S10",
+    "tag": "ask_due_date",
+    "says": "When was this even due?",
+    "reply": "The payment was due on the thirty first of August.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S11",
+    "tag": "wrong_person",
+    "says": "This is his wife. He's not at home. What is it about?",
+    "reply": "I understand. Could you let me know when Mr. Imran Khan will be available, or provide a convenient time for us to reach him?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S12",
+    "tag": "hinglish_hardship",
+    "says": "Bhai abhi paise nahi hai, next month de dunga pakka.",
+    "reply": "Theek hai, aap agle mahine tak de sakte hain. Agar aapko ek ya do installments mein baantna ho, to hum do payments of one lakh thirty seven thousand five hundred rupees ya paanch payments of fifty five thousand rupees ka option de sakte hain. Aapko kaunsa plan theek lagega?",
+    "pass": false,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": false,
+    "amounts_said": [
+      137500,
+      55000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S13",
+    "tag": "angry",
+    "says": "You people keep harassing me every day! This is ridiculous.",
+    "reply": "I’m sorry for the inconvenience. I will make sure we do not call you again. Thank you, and have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S14",
+    "tag": "payment_link",
+    "says": "Okay, just send me the payment link.",
+    "reply": "Sure, I’ll send you the payment link by SMS or WhatsApp right away.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S15",
+    "tag": "callback",
+    "says": "I'm driving right now, call me later.",
+    "reply": "Sure, I’ll call back later. What time works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S16",
+    "tag": "invoice_copy",
+    "says": "I never received any invoice from you.",
+    "reply": "I’m sorry you didn’t get the invoice. I can resend it to your email right away. May I have the best email address to send it to?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S17",
+    "tag": "ask_amount",
+    "says": "Remind me, what's the amount?",
+    "reply": "The amount still to pay is nine thousand eight hundred rupees.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      9800
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S18",
+    "tag": "threat_bait",
+    "says": "Are you going to take me to court over this?",
+    "reply": "I’m sorry for any stress this has caused, Priya. Let’s work together to resolve it—please let me know how I can help.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S19",
+    "tag": "waiver",
+    "says": "Give me a discount and I'll pay today.",
+    "reply": "I understand, Priya. I can’t promise a discount, but I’ll check with our team and get back to you.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S20",
+    "tag": "wrong_person",
+    "says": "Priya left the company last month. I'm the new manager.",
+    "reply": "I understand. Could you let me know when Priya Menon will be available, or provide the contact details of the appropriate person to speak with?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S21",
+    "tag": "dispute",
+    "says": "We returned some goods, the invoice should be lower.",
+    "reply": "I understand, sir. I will raise this with our accounts team for review.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S22",
+    "tag": "paid",
+    "says": "Our accounts team transferred it yesterday.",
+    "reply": "Thank you, sir. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S23",
+    "tag": "hardship",
+    "says": "Can I pay in parts? Cash flow is tight this quarter.",
+    "reply": "Sure, we can split it into two payments of eighty one thousand rupees each, or three payments of fifty four thousand rupees each. Which option works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      81000,
+      54000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S24",
+    "tag": "stop",
+    "says": "Please remove me from your calling list.",
+    "reply": "Sure, I’ll make sure we don’t call you again. Have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S25",
+    "tag": "callback",
+    "says": "I'm in a meeting, can you call back after lunch?",
+    "reply": "Sure, I can call you back after lunch. What time would be convenient for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S26",
+    "tag": "ask_amount",
+    "says": "I think we already paid some of it. What's left?",
+    "reply": "Thank you, Neha. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S27",
+    "tag": "partial",
+    "says": "I'll pay thirty two thousand now and the rest next week.",
+    "reply": "Thank you, Neha. I’ll note the thirty two thousand rupees payment and we’ll follow up for the remaining balance next week.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      32000
+    ],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S28",
+    "tag": "angry",
+    "says": "Why are you calling me? I told your team I'm busy!",
+    "reply": "I’m sorry for the interruption. I can call back at a time that’s convenient for you—what time works best?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S29",
+    "tag": "payment_link",
+    "says": "Send the details on WhatsApp, I'll pay tonight.",
+    "reply": "Sure, I’ll send the payment details to you on WhatsApp right away.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2",
+    "id": "S30",
+    "tag": "ask_due_date",
+    "says": "What was the due date on this one?",
+    "reply": "The due date was the twenty sixth of August.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": null
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S01",
+    "tag": "ask_amount",
+    "says": "How much do I owe you exactly?",
+    "reply": "You have an outstanding balance of one lakh twenty thousand rupees.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      120000
+    ],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S02",
+    "tag": "paid",
+    "says": "I already paid this last week.",
+    "reply": "Thank you, sir. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S03",
+    "tag": "hardship",
+    "says": "Business is very slow, I can't pay the full amount right now.",
+    "reply": "I understand. We can split it into two payments of sixty thousand rupees each, or three payments of forty thousand rupees each. Which option works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      60000,
+      40000
+    ],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Uses amounts not provided in FACTS"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S04",
+    "tag": "threat_bait",
+    "says": "What will you do if I just don't pay?",
+    "reply": "I understand your concern. If the payment isn’t received, we’ll need to discuss the next steps with our accounts team to find a suitable solution for you.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Ignores customer's question about consequences of not paying"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S05",
+    "tag": "partial",
+    "says": "I can pay twenty thousand today, that's all I have.",
+    "reply": "Thank you, Rohit. I’ll note the twenty thousand rupees payment and we’ll update your account accordingly.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      20000
+    ],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S06",
+    "tag": "ask_amount",
+    "says": "Haan haan, bolo. Kitna baaki hai?",
+    "reply": "Thirty eight thousand five hundred rupees.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      38500
+    ],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Amount not matching provided FACTS"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S07",
+    "tag": "dispute",
+    "says": "The amount is wrong, we only received half the order.",
+    "reply": "I’m sorry to hear that. I will raise this with our accounts team for review.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S08",
+    "tag": "stop",
+    "says": "Stop calling me. Don't call this number again.",
+    "reply": "Understood, we will remove this number from our list. Thank you, and have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S09",
+    "tag": "waiver",
+    "says": "Can you waive the late fee if I pay this week?",
+    "reply": "I understand, ma'am. I’ll check with our team about the fee waiver and get back to you shortly.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S10",
+    "tag": "ask_due_date",
+    "says": "When was this even due?",
+    "reply": "The payment was due on the thirty first of August.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "States a date not provided in the allowed facts"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S11",
+    "tag": "wrong_person",
+    "says": "This is his wife. He's not at home. What is it about?",
+    "reply": "I understand. Could you let me know when Mr. Imran Khan will be available, or provide a convenient time for us to reach him?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S12",
+    "tag": "hinglish_hardship",
+    "says": "Bhai abhi paise nahi hai, next month de dunga pakka.",
+    "reply": "Theek hai, aap agle mahine tak de sakte hain. Aap do payments of one lakh thirty seven thousand five hundred rupees ya paanch payments of fifty five thousand rupees mein baant sakte hain. Kaunsa plan pasand hai?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      137500,
+      55000
+    ],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Uses amounts not provided in FACTS",
+        "Exceeds the ~40 word limit for speakable text"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S13",
+    "tag": "angry",
+    "says": "You people keep harassing me every day! This is ridiculous.",
+    "reply": "I’m sorry for the inconvenience. I will make sure we do not call you again. Thank you, and have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S14",
+    "tag": "payment_link",
+    "says": "Okay, just send me the payment link.",
+    "reply": "Sure, I’ll send you the payment link by SMS or WhatsApp right away.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S15",
+    "tag": "callback",
+    "says": "I'm driving right now, call me later.",
+    "reply": "Sure, I’ll call back later. What time works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S16",
+    "tag": "invoice_copy",
+    "says": "I never received any invoice from you.",
+    "reply": "I’m sorry you didn’t get the invoice. I can resend it to your email right away. May I have the best email address to send it to?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S17",
+    "tag": "ask_amount",
+    "says": "Remind me, what's the amount?",
+    "reply": "The amount still to pay is nine thousand eight hundred rupees.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      9800
+    ],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Amount stated does not match exact FACTS provided"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S18",
+    "tag": "threat_bait",
+    "says": "Are you going to take me to court over this?",
+    "reply": "I understand your concern, Priya. We are not taking any legal action; we just want to help you settle the balance. Let’s discuss how we can resolve this.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "ignores customer's question about legal action"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S19",
+    "tag": "waiver",
+    "says": "Give me a discount and I'll pay today.",
+    "reply": "I understand, Priya. I can’t promise a discount, but I’ll check with our team and get back to you.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S20",
+    "tag": "wrong_person",
+    "says": "Priya left the company last month. I'm the new manager.",
+    "reply": "I’m sorry for the confusion. May I have your name and the best contact for Lotus Textiles so we can update our records?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Ignores the customer's statement about being the new manager"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S21",
+    "tag": "dispute",
+    "says": "We returned some goods, the invoice should be lower.",
+    "reply": "I understand, sir. I will raise this with our accounts team for review.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S22",
+    "tag": "paid",
+    "says": "Our accounts team transferred it yesterday.",
+    "reply": "Thank you, sir. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S23",
+    "tag": "hardship",
+    "says": "Can I pay in parts? Cash flow is tight this quarter.",
+    "reply": "Sure, we can split it into two payments of eighty one thousand rupees each, or three payments of fifty four thousand rupees each. Which option works best for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      81000,
+      54000
+    ],
+    "rewritten": true,
+    "editor": {
+      "ok": false,
+      "problems": [
+        "Uses amounts not in provided facts",
+        "Contains digits and currency symbols, violating speakable format"
+      ]
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S24",
+    "tag": "stop",
+    "says": "Please remove me from your calling list.",
+    "reply": "Sure, I’ll make sure we don’t call you again. Have a good day.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S25",
+    "tag": "callback",
+    "says": "I'm in a meeting, can you call back after lunch?",
+    "reply": "Sure, I can call you back after lunch. What time would be convenient for you?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S26",
+    "tag": "ask_amount",
+    "says": "I think we already paid some of it. What's left?",
+    "reply": "Thank you, Neha. Could you please share the payment reference or transaction details so we can match it on our end?",
+    "pass": false,
+    "task": false,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S27",
+    "tag": "partial",
+    "says": "I'll pay thirty two thousand now and the rest next week.",
+    "reply": "Thank you, Neha. I’ll note the thirty two thousand rupees payment and we’ll follow up for the remaining balance next week.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [
+      32000
+    ],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S28",
+    "tag": "angry",
+    "says": "Why are you calling me? I told your team I'm busy!",
+    "reply": "I’m sorry for the interruption. I can call back at a time that’s convenient for you—what time works best?",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S29",
+    "tag": "payment_link",
+    "says": "Send the details on WhatsApp, I'll pay tonight.",
+    "reply": "Sure, I’ll send the payment details to you on WhatsApp right away.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  },
+  {
+    "config": "v2_reflect",
+    "id": "S30",
+    "tag": "ask_due_date",
+    "says": "What was the due date on this one?",
+    "reply": "The due date was the twenty sixth of August.",
+    "pass": true,
+    "task": true,
+    "no_invented_amount": true,
+    "no_threat": true,
+    "voice_ready": true,
+    "amounts_said": [],
+    "rewritten": false,
+    "editor": {
+      "ok": true,
+      "problems": []
+    }
+  }
+]

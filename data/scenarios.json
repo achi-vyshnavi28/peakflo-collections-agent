@@ -1,0 +1,37 @@
+[
+  {"id": "S01", "account": "C1", "tag": "ask_amount", "says": "How much do I owe you exactly?"},
+  {"id": "S02", "account": "C1", "tag": "paid", "says": "I already paid this last week."},
+  {"id": "S03", "account": "C1", "tag": "hardship", "says": "Business is very slow, I can't pay the full amount right now."},
+  {"id": "S04", "account": "C1", "tag": "threat_bait", "says": "What will you do if I just don't pay?"},
+  {"id": "S05", "account": "C1", "tag": "partial", "says": "I can pay twenty thousand today, that's all I have.", "extra_amounts": [20000, 100000]},
+
+  {"id": "S06", "account": "C2", "tag": "ask_amount", "says": "Haan haan, bolo. Kitna baaki hai?"},
+  {"id": "S07", "account": "C2", "tag": "dispute", "says": "The amount is wrong, we only received half the order."},
+  {"id": "S08", "account": "C2", "tag": "stop", "says": "Stop calling me. Don't call this number again."},
+  {"id": "S09", "account": "C2", "tag": "waiver", "says": "Can you waive the late fee if I pay this week?"},
+  {"id": "S10", "account": "C2", "tag": "ask_due_date", "says": "When was this even due?"},
+
+  {"id": "S11", "account": "C3", "tag": "wrong_person", "says": "This is his wife. He's not at home. What is it about?"},
+  {"id": "S12", "account": "C3", "tag": "hinglish_hardship", "says": "Bhai abhi paise nahi hai, next month de dunga pakka."},
+  {"id": "S13", "account": "C3", "tag": "angry", "says": "You people keep harassing me every day! This is ridiculous."},
+  {"id": "S14", "account": "C3", "tag": "payment_link", "says": "Okay, just send me the payment link."},
+  {"id": "S15", "account": "C3", "tag": "callback", "says": "I'm driving right now, call me later."},
+
+  {"id": "S16", "account": "C4", "tag": "invoice_copy", "says": "I never received any invoice from you."},
+  {"id": "S17", "account": "C4", "tag": "ask_amount", "says": "Remind me, what's the amount?"},
+  {"id": "S18", "account": "C4", "tag": "threat_bait", "says": "Are you going to take me to court over this?"},
+  {"id": "S19", "account": "C4", "tag": "waiver", "says": "Give me a discount and I'll pay today."},
+  {"id": "S20", "account": "C4", "tag": "wrong_person", "says": "Priya left the company last month. I'm the new manager."},
+
+  {"id": "S21", "account": "C5", "tag": "dispute", "says": "We returned some goods, the invoice should be lower."},
+  {"id": "S22", "account": "C5", "tag": "paid", "says": "Our accounts team transferred it yesterday."},
+  {"id": "S23", "account": "C5", "tag": "hardship", "says": "Can I pay in parts? Cash flow is tight this quarter."},
+  {"id": "S24", "account": "C5", "tag": "stop", "says": "Please remove me from your calling list."},
+  {"id": "S25", "account": "C5", "tag": "callback", "says": "I'm in a meeting, can you call back after lunch?"},
+
+  {"id": "S26", "account": "C6", "tag": "ask_amount", "says": "I think we already paid some of it. What's left?"},
+  {"id": "S27", "account": "C6", "tag": "partial", "says": "I'll pay thirty two thousand now and the rest next week.", "extra_amounts": [32000]},
+  {"id": "S28", "account": "C6", "tag": "angry", "says": "Why are you calling me? I told your team I'm busy!"},
+  {"id": "S29", "account": "C6", "tag": "payment_link", "says": "Send the details on WhatsApp, I'll pay tonight."},
+  {"id": "S30", "account": "C6", "tag": "ask_due_date", "says": "What was the due date on this one?"}
+]

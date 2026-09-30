@@ -1,0 +1,19 @@
+{
+  "_note": "Synthetic accounts for a demo. The supplier (Acme Industrial Supplies) and all customers are made up.",
+  "supplier": "Acme Industrial Supplies",
+  "agent_name": "Asha",
+  "accounts": {
+    "C1": {"company": "Sharma Traders", "contact": "Rohit Sharma", "invoice": "INV-1042", "invoice_amount": 120000, "paid": 0,
+           "due_date": "2026-08-15", "days_overdue": 46, "plans": [2, 3]},
+    "C2": {"company": "Kaveri Foods", "contact": "Anitha Rao", "invoice": "INV-2210", "invoice_amount": 48500, "paid": 10000,
+           "due_date": "2026-08-31", "days_overdue": 30, "plans": [2]},
+    "C3": {"company": "Metro Hardware", "contact": "Imran Khan", "invoice": "INV-3307", "invoice_amount": 275000, "paid": 0,
+           "due_date": "2026-07-30", "days_overdue": 62, "plans": [2, 5]},
+    "C4": {"company": "Lotus Textiles", "contact": "Priya Menon", "invoice": "INV-4120", "invoice_amount": 9800, "paid": 0,
+           "due_date": "2026-09-18", "days_overdue": 12, "plans": [2]},
+    "C5": {"company": "Deccan Logistics", "contact": "Suresh Reddy", "invoice": "INV-5561", "invoice_amount": 162000, "paid": 0,
+           "due_date": "2026-09-10", "days_overdue": 20, "plans": [2, 3]},
+    "C6": {"company": "Bluebell Pharma", "contact": "Neha Gupta", "invoice": "INV-6093", "invoice_amount": 84000, "paid": 20000,
+           "due_date": "2026-08-26", "days_overdue": 35, "plans": [2, 4]}
+  }
+}
